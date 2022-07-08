@@ -1,0 +1,32 @@
+.container{
+  padding: 0 50px;
+}
+
+.form h5{
+  font-size: 16px;
+}
+
+.form-control{
+  font-size: 14px;
+  border: 1px rgb(1, 189, 8) solid;
+  padding: 5px;
+  border-radius: 20px;
+  width: 240px;
+  cursor: pointer;
+}
+
+.btn-success{
+  font-size: 14px;
+  cursor: pointer;
+  padding: 6px 20px;
+  background-color: rgb(134, 250, 134);
+  border: 1px rgb(1, 238, 1) solid;
+  border-radius: 20px;
+  outline: none;
+  margin-left: 5px;
+}
+
+.btn-success:hover{
+  background-color: rgb(171, 249, 171);
+  border-color: rgb(0, 159, 45);
+}

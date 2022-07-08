@@ -1,0 +1,34 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.viewer{
+  background-color: #f2f2f2;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  padding: 15px;
+  border-collapse: collapse;
+  border: 1px black solid;
+  border-radius: 20px;
+}
+
+td, th {
+  padding: 10px;
+  margin-right: 15px;
+  border: 1px rgb(96, 96, 96) solid;
+  cursor: pointer;
+}
+
+.selectedLine{
+  background-color: rgba(126, 126, 126, 0.119);
+  border: 3px rgb(96, 96, 96) solid;
+}
+
+table{
+  border-spacing: 0px;
+  border-collapse: collapse;
+}

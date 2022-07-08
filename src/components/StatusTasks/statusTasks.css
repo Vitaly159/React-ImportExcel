@@ -1,0 +1,22 @@
+.statusTasks-wrapper{
+  display: flex;
+  justify-content: space-around;
+  width: 500px;
+}
+
+.owner-block{
+  border-bottom: 1px gray solid;
+  margin-bottom: 10px;
+}
+
+.statusTasks-blocks{
+  width: 200px;
+  border: 1px rgb(199, 199, 199) solid;
+  border-radius: 30px;
+  padding: 20px;
+}
+
+.scroll{
+  overflow-y: scroll;
+  height: 200px;
+}
